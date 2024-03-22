@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "A backend to develop a social media app",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "Akarsh Gupta",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
